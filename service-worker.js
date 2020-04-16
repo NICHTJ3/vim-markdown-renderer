@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/mardown-renderer/precache-manifest.2a79697e10bbe6a634b13fb5b217ebfa.js"
+  "/mardown-renderer/precache-manifest.45619b8b8db860093c26bafcdbe02a09.js"
 );
 
 self.addEventListener('message', (event) => {
