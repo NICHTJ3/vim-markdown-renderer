@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/mardown-renderer/static/css/main.2e8310ca.chunk.css",
+    "main.js": "/mardown-renderer/static/js/main.3b153c0e.chunk.js",
+    "main.js.map": "/mardown-renderer/static/js/main.3b153c0e.chunk.js.map",
+    "runtime-main.js": "/mardown-renderer/static/js/runtime-main.82c380a5.js",
+    "runtime-main.js.map": "/mardown-renderer/static/js/runtime-main.82c380a5.js.map",
+    "static/css/2.4116fba5.chunk.css": "/mardown-renderer/static/css/2.4116fba5.chunk.css",
+    "static/js/2.c0f88be5.chunk.js": "/mardown-renderer/static/js/2.c0f88be5.chunk.js",
+    "static/js/2.c0f88be5.chunk.js.map": "/mardown-renderer/static/js/2.c0f88be5.chunk.js.map",
+    "index.html": "/mardown-renderer/index.html",
+    "precache-manifest.2a79697e10bbe6a634b13fb5b217ebfa.js": "/mardown-renderer/precache-manifest.2a79697e10bbe6a634b13fb5b217ebfa.js",
+    "service-worker.js": "/mardown-renderer/service-worker.js",
+    "static/css/2.4116fba5.chunk.css.map": "/mardown-renderer/static/css/2.4116fba5.chunk.css.map",
+    "static/css/main.2e8310ca.chunk.css.map": "/mardown-renderer/static/css/main.2e8310ca.chunk.css.map",
+    "static/js/2.c0f88be5.chunk.js.LICENSE.txt": "/mardown-renderer/static/js/2.c0f88be5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.82c380a5.js",
+    "static/css/2.4116fba5.chunk.css",
+    "static/js/2.c0f88be5.chunk.js",
+    "static/css/main.2e8310ca.chunk.css",
+    "static/js/main.3b153c0e.chunk.js"
+  ]
+}
