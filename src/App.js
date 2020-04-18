@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Editor from 'react-codemirror';
 import Markdown from 'react-markdown';
+import useLocalStorage from './useLocalStorage';
 import 'codemirror/lib/codemirror.css';
 
 function App() {
-  const [md, setMd] = useState('# Put your markdown here');
+  const [md, setMd] = useLocalStorage('document', '# Put your markdown here');
 
   return (
     <>
