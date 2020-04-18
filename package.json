@@ -2,7 +2,7 @@
   "name": "mardown-renderer",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nichtj3.github.io/mardown-renderer/",
+  "homepage": "https://nichtj3.github.io/vim-markdown-renderer/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
