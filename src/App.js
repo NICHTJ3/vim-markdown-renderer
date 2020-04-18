@@ -4,6 +4,7 @@ import Markdown from 'react-markdown';
 import useLocalStorage from './useLocalStorage';
 import 'codemirror/lib/codemirror.css';
 import 'codemirror/theme/material.css';
+import 'codemirror/keymap/vim';
 
 function App() {
   const [md, setMd] = useLocalStorage('document', '# Put your markdown here');
@@ -19,6 +20,7 @@ function App() {
           className="editor"
           options={{
             mode: 'markdown',
+            keyMap: 'vim',
             theme: 'material',
             readOnly: false,
             lineNumbers: true,
