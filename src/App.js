@@ -3,6 +3,7 @@ import Editor from 'react-codemirror';
 import Markdown from 'react-markdown';
 import useLocalStorage from './useLocalStorage';
 import 'codemirror/lib/codemirror.css';
+import 'codemirror/theme/material.css';
 
 function App() {
   const [md, setMd] = useLocalStorage('document', '# Put your markdown here');
@@ -18,6 +19,7 @@ function App() {
           className="editor"
           options={{
             mode: 'markdown',
+            theme: 'material',
             readOnly: false,
             lineNumbers: true,
           }}
