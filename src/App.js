@@ -4,6 +4,7 @@ import Markdown from 'react-markdown';
 import useLocalStorage from './useLocalStorage';
 import 'codemirror/lib/codemirror.css';
 import 'codemirror/theme/material.css';
+import 'codemirror/mode/markdown/markdown';
 import 'codemirror/keymap/vim';
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
   return (
     <>
       <div className="container">
-        <h1 className="title">Markdown preview</h1>
+        <h1 className="title">Vim Markdown Preview</h1>
         <Editor
           value={md}
           onChange={setMd}
