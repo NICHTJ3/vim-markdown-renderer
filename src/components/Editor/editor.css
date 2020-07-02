@@ -1,0 +1,17 @@
+.editor {
+  position: fixed;
+  top: 57px;
+  bottom: 0;
+  width: 50%;
+  height: auto;
+  overflow: auto;
+  box-shadow: -10px 2px 6px 10px rgba(0, 0, 0, 0.4);
+}
+
+.CodeMirror {
+  height: 100% !important;
+}
+
+.editor-pane textarea {
+  min-height: 500px;
+}
