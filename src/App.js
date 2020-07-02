@@ -1,12 +1,7 @@
 import React from 'react';
-import Editor from 'react-codemirror';
-import Markdown from 'react-markdown';
-import useLocalStorage from './useLocalStorage';
-import 'codemirror/lib/codemirror.css';
-import 'codemirror/theme/material.css';
-import 'codemirror/mode/markdown/markdown';
-import 'codemirror/keymap/vim';
-import './markdown.css';
+import Editor from './components/Editor';
+import useLocalStorage from './hooks/useLocalStorage';
+import Preview from './components/Preview';
 
 function App() {
   const [md, setMd] = useLocalStorage('document', '# Put your markdown here');
@@ -15,20 +10,8 @@ function App() {
     <>
       <div className="container">
         <h1 className="title">Vim Markdown Preview</h1>
-        <Editor
-          value={md}
-          onChange={setMd}
-          autoFocus={true}
-          className="editor"
-          options={{
-            mode: 'markdown',
-            keyMap: 'vim',
-            theme: 'material',
-            readOnly: false,
-            lineNumbers: true,
-          }}
-        />
-        <Markdown className="preview" source={md} escapeHtml={true} />
+        <Editor value={md} onChange={setMd} />
+        <Preview md={md} />
       </div>
     </>
   );
