@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/vim-markdown-renderer/precache-manifest.6a6cb2008f9c580c39314969fae3f435.js"
+  "/vim-markdown-renderer/precache-manifest.35b17954bdebe3370faa618a0323bf7d.js"
 );
 
 self.addEventListener('message', (event) => {
