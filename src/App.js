@@ -6,6 +6,7 @@ import 'codemirror/lib/codemirror.css';
 import 'codemirror/theme/material.css';
 import 'codemirror/mode/markdown/markdown';
 import 'codemirror/keymap/vim';
+import './markdown.css';
 
 function App() {
   const [md, setMd] = useLocalStorage('document', '# Put your markdown here');
