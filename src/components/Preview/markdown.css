@@ -782,3 +782,14 @@
   background-color: initial;
   border: 0;
 }
+
+.preview [type='checkbox'] {
+  box-sizing: border-box;
+  padding: 0;
+  vertical-align: middle;
+  margin-right: .5rem;
+}
+
+.preview ul p {
+  display: inline;
+}
