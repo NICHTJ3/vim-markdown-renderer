@@ -16,3 +16,4 @@ cd markdown-renderer
 npm i
 npm run start
 ```
+![](https://raw.githubusercontent.com/NICHTJ3/vim-markdown-renderer/master/assets/Screenshot%20from%202020-07-23%2015-38-55.png)
